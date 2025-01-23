@@ -1,0 +1,30 @@
+import reports
+
+# Generar reportes de ventas y gastos usando funciones del módulo
+sales_report = reports.generate_sales_report('Octobre', 10000)
+expense_report = reports.generate_expenses_report('Octubre', 5000)
+
+print(sales_report)
+print(expense_report)
+
+
+"""
+PODEMOS LLAMAR LAS FUNCIONES DE OTRO MODULO(ARCHIVO.py) COMO 
+EN ESTE CASO reports.py EL CUAL IMPORTAMOS AL INICIO
+
+CREAR CODIGO Y REUTILIZARLO EN OTRO ARCHIVOS DONDE QUERAMOS VOLVER A GENERAR 
+ESTA INFORMACION 
+
+AL GENERAR MODULOS TAMBIEN SE GENERO UN _pycache_
+
+CARACTERISTICAS DE USAR MODULOS 
+
+*REUTILIZAR CODIGO 
+*DIVIDIR EL CODIGO EN MODULOS NOS AYUDAR A TENER UNA MEJOR ESTRUCTURA EN EL PROYECTO
+*ORGANIZACION Y MANTENIBILIDAD 
+*ARCHIVOS.py ESTO QUIERE DECIR QUE CUALQUIER ARCHIVO .py ES UN MODULO QUE PODEMOS USAR 
+
+
+"""
+
+
